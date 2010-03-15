@@ -48,7 +48,9 @@ The additional styles will be added to your generated slides.
 
 Give your presentation!
 
-* left, right arrows to navigate through slides
+* left, right arrows to go forth/back or:
+* enter, backspace to go forth/back or:
+* click on right, click on left to go forth/back.
 * esc to go home
 
 ## Syntax Highlighting

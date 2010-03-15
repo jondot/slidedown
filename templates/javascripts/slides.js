@@ -73,15 +73,20 @@
       39: 1,      // ARROW RIGHT
       32: 1,      // SPACE BAR
       13: 1,      // RETURN
+      8: -1,      // BACKSPACE
       27: 'home', // ESCAPE
       left: -1,
       right: 1
     }
-
+    
     if (dir = DIRECTIONS[event.which || event]) {
+      if(event.which)
+      {
+          event.preventDefault();
+          event.stopPropagation();
+      }
       if (dir == 'home') {
-        event.preventDefault();
-        event.stopPropagation();
+        
         location.href = '/';
       } else {
         $('#instructions').slideUp(100);
