@@ -1,7 +1,8 @@
 # slidedown
 
 Generate slides with Markdown.
-This fork lets you generate slides with pygments also under windows. 
+This fork lets you generate slides with pygments also under Windows. 
+Don't forget to jump to requirements.
 
 ## Usage
 
@@ -79,7 +80,8 @@ For ERb:
 * Nokogiri
 * makers-mark
 * pygments (for syntax highlighting) http://pygments.org/download/.
-* win32-open under windows, compiled or source. here is the compiled:
+* win32-open3 under windows, compiled or source. here is the compiled version:
+
     gem install win32-open3 --platform x86-mingw32
 
 ## Todo
