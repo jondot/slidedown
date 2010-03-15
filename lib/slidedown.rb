@@ -1,7 +1,12 @@
 require 'rubygems'
 require 'optparse'
 require 'nokogiri'
+
+
 require 'makers-mark'
+# important - require 'albino' after makers-mark so that *our* version of albino will be used 
+require File.join(File.dirname(__FILE__), *%w[.. vendor albino])
+
 require 'erb'
 require File.join(File.dirname(__FILE__), 'slide')
 
